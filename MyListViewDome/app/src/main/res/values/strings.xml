@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyListViewDome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onefragment">ViewOne</string>
+    <string name="twofragment">ViewTwo</string>
+    <string name="threefragment">Viewthree</string>
+
+    <string name="chose_file">选择文件</string>
+    <string name="btn_parent">上一级目录</string>
+    <string name="tvData">FileName</string>
+    <string name="startUpload">开始上传</string>
+    <string name="startSplit">切割</string>
+    <string name="startMerge">合并</string>
+
+
+</resources>

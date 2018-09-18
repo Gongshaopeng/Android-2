@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpLoad.UpLoadActivity">
+
+    <Button
+        android:id="@+id/choseFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chose_file" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/tvData"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity = "center_horizontal"
+            android:layout_gravity = "center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/tvData"
+            >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startSplit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startSplit" />
+
+    <EditText
+        android:id="@+id/newFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity = "center_horizontal"
+        android:layout_gravity = "center_horizontal"
+        android:text="合并文件名"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/startMerge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startMerge" />
+
+</LinearLayout>
